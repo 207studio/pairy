@@ -1,6 +1,6 @@
 # Pairy support
 
-Public help and privacy pages for Pairy (formerly MackyWay and Paddleway), a Mac remote desktop app for iPad and iPhone by Yooil Jang.
+Public help and privacy pages for Pairy (formerly MackyWay and Paddleway), a Mac remote desktop app for iPad and iPhone by 207 Studio.
 
 This repository contains website content and approved promotional assets only. It does not contain app source, connection keys, private device information or customer session data.
 
@@ -11,4 +11,4 @@ This repository contains website content and approved promotional assets only. I
 
 Support requests are public. Please include a general description and app version, not passwords, connection keys, private screen content or complete logs.
 
-© 2026 Yooil Jang. App artwork, screenshots and branding are provided for this product’s support and presentation; no general artwork license is granted by this repository.
+© 2026 207 Studio. App artwork, screenshots and branding are provided for this product’s support and presentation; no general artwork license is granted by this repository.
