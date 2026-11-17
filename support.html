@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Download the free Pairy Mac companion and set up Pairy on your Mac, iPad and iPhone.">
-<title>Pairy — Support and setup</title>
+<meta name="description" content="Pairy connection troubleshooting, frequently asked questions and contact information.">
+<title>Pairy — Support</title>
 <link rel="canonical" href="https://207studio.dev/pairy/support.html">
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="assets/icon-84.png" type="image/png">
@@ -25,43 +25,11 @@
 <a href="#ja" lang="ja">日本語</a>
 </nav>
 
-<section class="callout" id="download">
-<h2>Get Pairy</h2>
-<p>Pairy has two parts. The iPad and iPhone app is on the App Store. The Mac companion is a free download from this page. Install both on the devices you want to connect.</p>
-<div class="actions">
-<a class="button primary" href="https://github.com/207studio/207studio.github.io/releases/download/pairy-mac-1.4.2-142/Pairy-mac-1.4.2-142-notarized.zip">Download for Mac</a>
-<a class="button" href="https://apps.apple.com/app/id6815584225">App Store</a>
-</div>
-<p>Mac companion version 1.4.2 (142), signed with a Developer ID and notarized by Apple.</p>
-<p lang="ko">Mac 보조 앱 버전 1.4.2 (142). Developer ID로 서명하고 Apple의 공증을 받았습니다.</p>
-<p lang="ja">Mac コンパニオンアプリ バージョン 1.4.2 (142)。Developer ID で署名し、Apple の公証を受けています。</p>
-<p>Mac: Apple silicon, macOS 15 or later, a Tailscale account, Screen Recording and Accessibility permissions. iPad or iPhone: iPadOS or iOS 17.4 or later.</p>
-<p lang="ko">Mac: Apple silicon, macOS 15 이상, Tailscale 계정, 화면 녹화·손쉬운 사용 권한. iPad·iPhone: iPadOS 또는 iOS 17.4 이상.</p>
-<p lang="ja">Mac: Apple silicon、macOS 15 以降、Tailscale アカウント、画面収録とアクセシビリティの権限。iPad または iPhone: iPadOS または iOS 17.4 以降。</p>
-</section>
+<section class="callout" id="download"><h2>Get Pairy · Pairy 받기</h2><p><a class="button primary" href="/pairy/#mac">Pairy apps and downloads</a> <a class="button" href="/ko/pairy/#mac">Pairy 앱과 다운로드</a></p></section>
 
 <section id="en" lang="en" class="lang-section">
 <h2>English</h2>
-<h3>What Pairy is</h3>
-<p>Pairy shows your Mac desktop on an iPad at full screen. Touch the screen to move the pointer, use two fingers to scroll, and open the floating menu for the keyboard, dictation, clipboard and display controls.</p>
-<p>The iPhone app adds a remote mode. While the iPad is showing a Mac, an iPhone on the same local network can pair with the iPad and act as a wireless keyboard and trackpad. The iPad keeps the Mac picture. The iPhone sends only input. With a hardware keyboard connected, the iPhone shows the trackpad without the software keyboard. The iPhone also has a viewer mode that connects directly to a Mac through Tailscale and shows its screen.</p>
-<p>The iPad and iPhone app is free, with no forced ads. You can support us with an optional tip or by choosing to watch an ad; neither unlocks anything. The Mac companion is free and shows no ads.</p>
-
-<h3>How the connection works</h3>
-<p>Pairy embeds Tailscale. Sign in to the same Tailscale account on the Mac and on the iPad. Pairy finds your Macs, and Tailscale encrypts the connection between your devices. You do not enter an IP address or open a port on your router.</p>
-<p>The iPhone remote mode uses the local network instead. The iPhone finds an iPad that is already showing a Mac through Bonjour, and the iPad owner confirms the pairing. The iPhone sends keyboard and trackpad input to the iPad. The iPad forwards that input to the Mac over the existing Tailscale session. Video stays on the iPad in remote mode.</p>
-<p>iOS asks for Local Network access when you use the iPhone remote. Allow it, or the iPhone cannot find the iPad.</p>
-
-<h3>Set up</h3>
-<ol>
-<li>Download the Mac companion, move Pairy to Applications and open it.</li>
-<li>In the Mac app, sign in to Tailscale. Allow Screen Recording and Accessibility when macOS asks.</li>
-<li>Install Pairy on the iPad or iPhone and sign in to the same Tailscale account.</li>
-<li>Choose your Mac. When one online Mac is available, the app connects automatically. Otherwise select the Mac by name.</li>
-<li>Optional iPhone remote: open Pairy on the iPhone while the iPad shows the Mac, tap the iPad, and confirm on the iPad.</li>
-</ol>
-<p>Advanced: instead of web sign-in, tap Sign in with an auth key and paste an untagged key created by the Mac's Tailscale account. Pairy does not save the key on the device. A key from another account joins that account's tailnet. No Mac yet? Tap Try the Demo on the first screen to use a simulated Mac without an account or network.</p>
-
+<p><a href="/pairy/#setup">Pairy features and setup instructions</a></p>
 <h3>FAQ</h3>
 <p><strong>The app cannot find my Mac.</strong> Check that the Mac is awake, online and running the companion. Check that both devices use the same Tailscale account. If the Mac is offline in the Tailscale admin page, reconnect it there.</p>
 <p><strong>The screen is black or input does nothing.</strong> Open System Settings on the Mac and check Screen Recording and Accessibility for Pairy. Quit and reopen the Mac app after you change a permission.</p>
@@ -75,26 +43,7 @@
 
 <section id="ko" lang="ko" class="lang-section">
 <h2>한국어</h2>
-<h3>Pairy란</h3>
-<p>Pairy는 Mac 데스크톱을 iPad 화면 전체에 보여 줍니다. 화면을 눌러 포인터를 움직이고, 두 손가락으로 스크롤하세요. 떠 있는 메뉴를 열면 키보드, 받아쓰기, 클립보드, 화면 설정을 쓸 수 있습니다.</p>
-<p>iPhone 앱에는 리모컨 모드가 있습니다. iPad가 Mac 화면을 보여 주는 동안, 같은 로컬 네트워크에 있는 iPhone이 iPad와 짝을 맺고 무선 키보드와 트랙패드 역할을 합니다. Mac 화면은 iPad에 그대로 남고, iPhone은 입력만 보냅니다. 하드웨어 키보드를 연결하면 iPhone에는 소프트웨어 키보드 없이 트랙패드만 표시됩니다. iPhone에는 Tailscale을 통해 Mac에 직접 연결해 화면을 보는 뷰어 모드도 있습니다.</p>
-<p>iPad·iPhone 앱은 무료이며 강제 광고가 없습니다. 원하면 선택형 팁을 보내거나 직접 광고를 보는 방법으로 응원할 수 있고, 어느 쪽도 기능을 열지 않습니다. Mac 보조 앱은 무료이며 광고가 없습니다.</p>
-
-<h3>연결 방식</h3>
-<p>Pairy에는 Tailscale이 내장되어 있습니다. Mac과 iPad에서 같은 Tailscale 계정으로 로그인하세요. Pairy가 Mac을 찾고, 기기 사이의 연결은 Tailscale이 암호화합니다. IP 주소를 입력하거나 공유기에서 포트를 열 필요가 없습니다.</p>
-<p>iPhone 리모컨 모드는 로컬 네트워크를 사용합니다. iPhone이 Bonjour로 Mac에 연결된 iPad를 찾고, iPad에서 연결을 확인하면 짝이 맺어집니다. iPhone은 키보드와 트랙패드 입력을 iPad로 보내고, iPad는 기존 Tailscale 연결을 통해 Mac으로 전달합니다. 리모컨 모드에서 영상은 iPad에만 표시됩니다.</p>
-<p>iPhone에서 리모컨 모드를 처음 쓰면 iOS가 로컬 네트워크 접근을 요청합니다. 허용하지 않으면 iPhone이 iPad를 찾을 수 없습니다.</p>
-
-<h3>설정 순서</h3>
-<ol>
-<li>Mac 보조 앱을 내려받아 Pairy를 응용 프로그램 폴더로 옮기고 실행하세요.</li>
-<li>Mac 앱에서 Tailscale에 로그인하세요. macOS가 요청하면 화면 녹화와 손쉬운 사용을 허용하세요.</li>
-<li>iPad나 iPhone에 Pairy를 설치하고 같은 Tailscale 계정으로 로그인하세요.</li>
-<li>Mac을 고르세요. 온라인 상태인 Mac이 하나면 자동으로 연결되고, 여러 대면 이름을 보고 고릅니다.</li>
-<li>iPhone 리모컨을 쓸 때는 iPad가 Mac 화면을 보여 주는 동안 iPhone에서 Pairy를 열고, 목록에서 iPad를 누른 뒤 iPad에서 연결을 확인하세요.</li>
-</ol>
-<p>고급: 웹 로그인 대신 ‘인증 키로 로그인’을 눌러 Mac의 Tailscale 계정에서 만든 태그 없는 키를 붙여 넣을 수 있습니다. 키는 기기에 저장되지 않습니다. 다른 계정의 키를 쓰면 그 계정의 tailnet에 참여합니다. Mac이 없다면 첫 화면에서 ‘데모 사용’을 눌러 계정이나 네트워크 없이 가상 Mac을 써 볼 수 있습니다.</p>
-
+<p><a href="/ko/pairy/#setup">Pairy 소개와 설정 순서</a></p>
 <h3>자주 묻는 질문</h3>
 <p><strong>앱이 Mac을 찾지 못합니다.</strong> Mac이 켜져 있고 인터넷에 연결되어 있으며 보조 앱이 실행 중인지 확인하세요. 두 기기가 같은 Tailscale 계정을 쓰는지도 확인하세요. Tailscale 관리 페이지에서 Mac이 오프라인으로 보이면 그곳에서 다시 연결하세요.</p>
 <p><strong>화면이 검게 나오거나 입력이 되지 않습니다.</strong> Mac의 시스템 설정에서 Pairy의 화면 녹화와 손쉬운 사용 권한을 확인하세요. 권한을 바꾼 뒤에는 Mac 앱을 껐다가 다시 여세요.</p>
