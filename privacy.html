@@ -13,16 +13,41 @@
 <meta property="og:image" content="https://207studio.dev/assets/og-pairy.png">
 <meta property="og:site_name" content="207 Studio">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="style.css">
 <link rel="icon" href="assets/icon-84.png" type="image/png">
+<!-- chrome:head:start -->
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0d1333" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#fdfcf8" media="(prefers-color-scheme: light)">
+<link rel="preload" href="/assets/fonts/dm-sans-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<script src="/assets/look.js"></script>
+<link rel="stylesheet" href="/assets/fonts/pretendard.css">
+<link rel="stylesheet" href="/assets/site-tokens.css">
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/site-read.css">
+<!-- chrome:head:end -->
 </head>
 <body>
+<!-- chrome:top:start -->
 <a class="skip" href="#main">Skip to content</a>
-<header>
-<a class="brand" href="./"><img src="assets/icon-84.png" width="42" height="42" alt="">Pairy</a>
-<nav aria-label="Main"><a href="support.html">Support</a><a href="privacy.html" aria-current="page">Privacy</a></nav>
-</header>
-<main id="main" class="article" tabindex="-1">
+<div class="sky" aria-hidden="true"><b class="sky-tile sky-still"></b><i class="sky-a"><b class="sky-tile sky-star"></b><b class="sky-tile sky-dots"></b></i><i class="sky-b"><b class="sky-tile sky-star"></b><b class="sky-tile sky-dots"></b></i></div>
+<header class="head" data-head><div class="head-in">
+<a class="pill brand" href="/" aria-label="207 Studio"><span class="brand-star"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1c.4 5.6 2.6 8 11 11-8.4 3-10.6 5.4-11 11-.4-5.6-2.6-8-11-11 8.4-3 10.6-5.4 11-11z"/></svg></span><span class="brand-word">207 Studio</span></a>
+<nav class="pill head-nav" aria-label="Main navigation"><a href="/#work">Work</a><a href="/blog/">Writing</a><a href="/about/">About</a></nav>
+<span class="head-gap"></span>
+<a class="pill" href="/ko/" lang="ko" hreflang="ko">한국어</a>
+<details class="menu" data-menu><summary class="round" aria-label="Menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14M5 12h14M5 16h14"/></svg></summary>
+<div class="menu-pop">
+<div class="menu-nav-only"><a href="/#work">Work</a><a href="/blog/">Writing</a><a href="/about/">About</a></div>
+<p class="menu-label js-only">Look</p>
+<div class="seg js-only" role="group" aria-label="Look"><button type="button" data-look-set="system" aria-pressed="false">System</button><button type="button" data-look-set="paper" aria-pressed="false">Light</button><button type="button" data-look-set="night" aria-pressed="false">Night</button></div>
+<p class="menu-label">Studio</p>
+<a href="mailto:support@207studio.dev">Support</a><a href="/llms.txt">llms.txt</a>
+<p class="menu-label">Legal</p>
+<a href="/legal/privacy/">Privacy Policy</a><a href="/legal/terms/">Terms of Use</a><a href="/legal/refunds/">Refund Policy</a>
+</div></details></div></header>
+<!-- chrome:top:end -->
+<main id="main" class="wrap read" tabindex="-1">
 <span class="eyebrow">Last updated · 2026-11-03</span>
 <h1>Pairy privacy policy</h1>
 <p class="lead">How Pairy handles screen content, connections, dictation, clipboard data, local storage, advertising and tips. Available in English, Korean and Japanese.</p>
@@ -167,6 +192,14 @@
 <p>提供者: 207 Studio。プライバシーに関する質問や依頼は、メール <a href="mailto:support@207studio.dev">support@207studio.dev</a> または <a href="support.html#contact-ja">Pairy サポートページ</a>までお送りください。公開の issue には、パスワード、接続キー、個人情報が写った画面の内容を含めないでください。ポリシーを大きく変更するときは、このページに反映し、更新日を変更します。</p>
 </section>
 </main>
-<footer><span>© 2026 207 Studio · Pairy</span><a href="support.html">Support / 지원 / サポート</a></footer>
+<!-- chrome:foot:start -->
+<footer class="foot"><div class="wrap"><div class="foot-grid">
+<div class="foot-brand"><a href="/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1c.4 5.6 2.6 8 11 11-8.4 3-10.6 5.4-11 11-.4-5.6-2.6-8-11-11 8.4-3 10.6-5.4 11-11z"/></svg>207 Studio</a><p>Software for making and teaching.</p></div>
+<nav class="foot-work" aria-label="Work"><h2>Work</h2><a href="/pairy/">Pairy</a><a href="https://chalkieboard.207studio.dev/" target="_blank" rel="noopener">Chalkieboard</a><a href="/checkyboard/">CheckyBoard</a><a href="/cool-kiwi/">Cool Kiwi</a><a href="/stonewars/">StoneWars</a><a href="/dekiduck/">Decky Duck</a><a href="/ttoryeot/">Ttoryeot</a></nav>
+<nav aria-label="Studio"><h2>Studio</h2><a href="/about/">About</a><a href="/blog/">Writing</a><a href="mailto:support@207studio.dev">Support</a><a href="/llms.txt">llms.txt</a></nav>
+<nav aria-label="Legal"><h2>Legal</h2><a href="/legal/privacy/">Privacy Policy</a><a href="/legal/terms/">Terms of Use</a><a href="/legal/refunds/">Refund Policy</a></nav>
+</div><div class="foot-bottom"><span>© 2026 207 Studio · South Korea</span><a href="/ko/" lang="ko" hreflang="ko">한국어</a></div></div></footer>
+<script src="/assets/site.js" defer></script>
+<!-- chrome:foot:end -->
 </body>
 </html>
